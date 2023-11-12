@@ -160,8 +160,6 @@ textarea {
         width: 80%;
 
 }
-    
-
 }
 @media (max-width:720px){
     .logo-mario{
@@ -195,9 +193,6 @@ textarea {
     }
     .logo-mario{
         width: 240px;
-        align-items: center;
         margin-top: 20px;
     }
-    
-    
 }
