@@ -166,7 +166,7 @@ textarea {
 @media (max-width:720px){
     .logo-mario{
         width: 240px;
-        margin-top: 65px;
+        margin-top: 20px;
     }
     p{
         font-size: 15px;
