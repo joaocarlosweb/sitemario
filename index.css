@@ -156,15 +156,24 @@ textarea {
         margin-top:20px;
         margin-bottom: 50px;
     }
+    .caixa-principal {
+        width: 80%;
 
 }
-@media (max-width:980px){
+    
+
+}
+@media (max-width:720px){
     .logo-mario{
         width: 240px;
         margin-top: 65px;
     }
     p{
         font-size: 15px;
+    }
+    .caixa-principal {
+        width: 80%;
+    
     }
 }
 @media (max-width:560px){
