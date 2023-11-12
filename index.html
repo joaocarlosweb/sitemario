@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Mario Site</title>
+</head>
+
+<body>
+    <div class="video-background">
+        <video src="midia/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <div class="caixa-principal"><img class="logo-mario" src="midia/logo.png" alt="Super Mario Logo">
+        <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo!</p>
+        <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos entupidos
+            ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a
+            vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+        <button onclick="clicou()"> Fale conosco</button>
+    </div>
+
+
+    <img class="mario-inlustre" src="midia/mario.png" alt="Mario Foto inlustrativa">
+
+    <form class= "fale-conosco">
+        <h2 class="tittle-form">Fale conosco!</h2>
+        <input type="text" alt="Nome do Usuario" placeholder="Seu Nome">
+        <input placeholder="Seu Telefone" type="tel">
+        <textarea placeholder="Digite seu Problema Aqui!"></textarea>
+        <button>Enviar informações</button>
+    </form>
+    <div class="mascara-form"></div>
+
+</body>
+<script>
+
+    let formulario = document.querySelector(".fale-conosco")
+    let mascara = document.querySelector(".mascara-form")
+    console.log(mascara)
+    function clicou(){
+        
+        formulario.style.left = "615px"
+       mascara.style.visibility="visible"
+    }
+
+</script>
+
+</html>
